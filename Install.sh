@@ -7,6 +7,13 @@ ENDCOLOR="\e[0m"
 error_ins=1
 error_conf=1
 
+echo Installing Updating...
+apt-get update -y 1>/dev/null 2>> /root/error.log
+
+echo Installing Upgrading...
+apt-get upgrade -y 1>/dev/null 2>> /root/error.log
+
+
 echo Installing HTOP...
 apt-get install htop -y 1>/dev/null 2>> /root/error.log
 
