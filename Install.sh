@@ -66,6 +66,7 @@ then
                 echo -e "${GREEN}Completed${ENDCOLOR}"
                 echo ______________________
                 echo
+                ip a
         else
                 echo ______________________
                 echo -e "${RED}Error${ENDCOLOR}"
