@@ -8,7 +8,10 @@ error_ins=1
 error_conf=1
 
 echo Installing HTOP...
-apt-get install openssh-server -y 1>/dev/null 2>> /root/error.log
+apt-get install htop -y 1>/dev/null 2>> /root/error.log
+
+echo Installing NET-TOOLS...
+apt-get install net-tools -y 1>/dev/null 2>> /root/error.log
 
 echo Installing OpenSSH-Server...
 echo
